@@ -1,2 +1,2 @@
 git commit -am "update" -> adds and commits 
-git config --global alias.ac "commit -am" -> setting alias
+git config --global alias.up "commit -m "update"" -> setting alias
