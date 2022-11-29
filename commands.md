@@ -11,5 +11,5 @@ git stash pop
 git stash list  
 git stash save "alias for stash"  
 git stash apply 1 => applies second stash (can apply only one, for applying second, it is needed to commit or stash)  
-git reset HEAD^ => uncommits (localy) commited files and stage them again 
-git reset --hard HEAD^ => uncommits (localy) commited files and unstaged them
+git reset HEAD^ => uncommits (localy) commited files and stage them again  
+git reset --hard HEAD^ => uncommits (localy) commited files and unstaged them  
