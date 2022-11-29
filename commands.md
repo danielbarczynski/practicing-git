@@ -15,3 +15,5 @@ git reset HEAD^ => uncommits (localy) **pushed** files and stage them again
 git reset --hard HEAD^ => uncommits (localy) **pushed** files and unstaged them  
 git push --force => if there is no commits, just deletes last commit from remote (also from history)  
 git merge --abort => aborts merge conflict
+git restore . => disacard changes
+git clean -fd => deletes untracked files from directory
