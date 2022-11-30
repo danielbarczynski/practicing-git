@@ -18,3 +18,4 @@ git merge --abort => aborts merge conflict
 git restore . => disacard changes  
 git clean -fd => deletes untracked files and directories   
 git clean -fx => deletes all untracked (also ignored) files and directories   
+some merge  
