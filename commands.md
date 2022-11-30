@@ -14,9 +14,10 @@ git reset --soft HEAD^ => uncommits (locally) commited files
 git reset HEAD^ => uncommits (localy) **pushed** files and stage them again  
 git reset --hard HEAD^ => uncommits (localy) **pushed** files and unstaged them  
 git push --force => if there is no commits, just deletes last commit from remote (also from history)  
-git merge [branch-name]  => merges two branches, push needed after this (no changes in history)  
+git rebase => with rebase you say to use another branch as the new base for your work. moves changes from a branch to another but alters the history by moving
+the origin branch's starting point. it does not create a merge commit  
+git merge [branch-name]  => merges two branches. it also adds all commits to the branch history. history is preserved  
 git merge --abort => aborts merge conflict  
-git rebase => don't know yet   
 git restore . => disacard changes  
 git clean -fd => deletes untracked files and directories   
 git clean -fx => deletes all untracked (also ignored) files and directories   
